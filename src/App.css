@@ -1,0 +1,43 @@
+.DraftEditor-editorContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fff;
+  border-left: 0.5em solid transparent;
+  z-index: 1;
+  height: 10vh;
+  margin: 2em;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container>div {
+  margin: 1em;
+}
+
+.first-btn,
+.third-btn {
+  width: 3em;
+}
+
+.second-btn {
+  width: 3em;
+}
+
+.code-btn,
+.underline-btn {
+  height: 3em;
+  width: 3em;
+}
+
+.strike-btn,
+.bold-btn {
+  height: 3em;
+  width: 3em;
+}
